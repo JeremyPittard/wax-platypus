@@ -38,7 +38,7 @@ gulp.task("prefix", function() {
   gulp
     .src("./dist/css/main.css")
     .pipe(prefix())
-    .pipe(gulp.dest("css"));
+    .pipe(gulp.dest("./dist/css"));
 });
 
 gulp.task("video", function() {

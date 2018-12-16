@@ -3,23 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>for your earballs||Wax Platypuss</title>
+    <title>For Your Earballs || Wax Platypus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="dist/main.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
-    <script src="dist/main.js"></script>
+    <script src="dist/js/main-min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <video
-      src="dist/media/wax-on.mp4"
-      type="video/mp4"
-      autoplay
-      muted
-      loop
-    ></video>
+    <div class="background unload">
+      <video autoplay muted loop>
+        <source src="dist/media/wax-on.mp4" type="video/mp4" />
+      </video>
+      <div class="filter"></div>
+    </div>
+    <div class="container unload">
+      <h2>
+        The Platypusses are coming. <br />
+        Join Them.
+      </h2>
+      <div class="img-container">
+        <img
+          class="social-icon"
+          src="dist/media/fbico.svg"
+          alt="find us on bookface"
+        />
+        <img class="social-icon" src="dist/media/instaico.svg" alt="gram us" />
+      </div>
+    </div>
+
+    <div class="loading">
+      <img class="loading-content" src="dist/media/wax.svg" alt="loading" />
+      <h2 class="loading-content">Loading...</h2>
+    </div>
   </body>
 </html>
